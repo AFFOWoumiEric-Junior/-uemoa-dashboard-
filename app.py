@@ -33,6 +33,7 @@ if not FICHIER.exists():
     st.stop()
 
 df = charger()
+df = df.dropna(subset=["pays"])
 
 # ---------- Barre latérale : les menus ----------
 st.sidebar.header("Paramètres")
