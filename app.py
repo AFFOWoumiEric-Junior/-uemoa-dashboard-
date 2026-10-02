@@ -20,7 +20,7 @@ NORMES = {
     "Recettes fiscales (% du PIB)": (20, "Norme UEMOA ≥ 20 %"),
 }
 
-st.set_page_config(page_title="Pays en développement", page_icon="🌍", layout="wide")
+st.set_page_config(page_title="PED Dashboard", page_icon="🌍", layout="wide")
 
 
 @st.cache_data(ttl=3600)
